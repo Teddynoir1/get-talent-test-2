@@ -23,7 +23,9 @@ ul{
     list-style: none;
 }
 
-  
+.rounded-bottom {
+  border-radius: 0px 0px 15px 15px !important;
+}
   .topnav input[type=text] {
     padding: 6px;
     font-size: 13px;
