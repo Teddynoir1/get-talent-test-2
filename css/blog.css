@@ -85,6 +85,10 @@ ul{
     border: 0;
   }
 
+  #Recommended-post .card-img-top {
+    border: 0;
+  }
+
   #cardss .card .card-body {
     background: #D4D4D4;
     border-radius: 0px 0px 10px 10px;
@@ -169,6 +173,7 @@ ul{
 
     .col-12 {
       margin-bottom: 20px;
+      margin-right: 0!important;
     }
     #blog-women {
       padding: 10px;
