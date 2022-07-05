@@ -89,6 +89,15 @@ ul{
     border: 0;
   }
 
+  #Recommended-post .card {
+    border: 1px solid #D4E4FB;
+    border-radius: 20px;
+  }
+
+  #Recommended-post .Recommended-Post-Body {
+    margin-top: 30px;
+  }
+
   #cardss .card .card-body {
     background: #D4D4D4;
     border-radius: 0px 0px 10px 10px;
@@ -103,6 +112,18 @@ ul{
     text-decoration: none;
     font-weight: 700;
     font-size: 16px;
+  }
+
+  #cardss{
+    padding: 30px;
+  }
+
+  #Recommended-post{
+    padding: 30px;
+  }
+
+  #card-five {
+    padding: 30px;
   }
 
   #cardss .card-title {
@@ -219,6 +240,9 @@ ul{
       padding: 0 !important;
   }
 
+  #Recommended-post .Recommended-Post-Body {
+    padding-left: 0;
+  }
   #Latest-Update .Latest-Update-Body .Latest-Update-Text h2{
       height: 50%;
     }
@@ -227,19 +251,22 @@ ul{
     width: 200px;
     }
 
+    #Latest-Update .Latest-Update-Body {
+      padding-left: 0;
+    }
     #Latest-Update .Latest-Update-Body .Latest-Update-Text h2{
-      font-size: 14px;
+      font-size: 20px;
       margin-top: 5px;
       font-weight: 700;
     }
 
     #Recommended-post .Recommended-Post-Body .Recommended-Post-Text h2{
-      font-size: 12px;
+      font-size: 18px;
       font-weight: 700;
     }
 
     #card-five h2{
-      font-size: 14px;
+      font-size: 25px;
       font-weight: 700;
     }
   }
