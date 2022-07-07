@@ -49,12 +49,18 @@ ul{
     padding: 6px;
 }
   
+
+.swiper {
+  display: none;
+}
   .topnav .search-container button:hover {
     background: #2776ea57;
   }
 
 
-
+  #Latest-Update .topnav-main {
+    display: block;
+  }
 
   .topnav-main input[type=text] {
     padding: 6px;
@@ -83,6 +89,10 @@ ul{
     background: #2776ea57;
   }
 
+  .topnav-main {
+    display: none;
+  }
+
   .card {
     border: 0;
   }
@@ -99,41 +109,6 @@ ul{
   #Recommended-post .Recommended-Post-Body {
     margin-top: 30px;
   }
-
-  #cardss .card .card-body {
-    background: #D4D4D4;
-    border-radius: 0px 0px 10px 10px;
-  }
-
-  #cardss .card .card-body .text-grey{
-    color: #7c7c7c;
-    font-weight: 700;
-    font-size: 16px;
-  }
-  #cardss .card .card-body .link a {
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 16px;
-  }
-
-  #cardss{
-    padding: 30px;
-  }
-
-  #Recommended-post{
-    padding: 30px;
-  }
-
-  #card-five {
-    padding: 30px;
-  }
-
-  #cardss .card-title {
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 16px;
-  }
-
   #Recommended-post .card-title {
     text-decoration: none;
     font-weight: 700;
@@ -155,6 +130,154 @@ ul{
     font-weight: 700;
     font-size: 16px;
   }
+
+  #Recommended-post{
+    padding: 30px;
+  }
+
+
+
+
+
+  
+  
+
+  #Recommended-post2 .card-img-top {
+    border: 0;
+  }
+
+  #Recommended-post2 .card {
+    border: 1px solid #D4E4FB;
+    border-radius: 20px;
+  }
+
+  #Recommended-post2 .Recommended-Post-Body {
+    margin-top: 30px;
+  }
+  #Recommended-post2 .card-title {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  #Recommended-post2 {
+    background: #D4E4FB;
+  }
+
+  #Recommended-post2 .card .card-body .text-grey{
+    color: #7c7c7c;
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  #Recommended-post2 .card .card-body .link a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  #Recommended-post2{
+    padding: 30px;
+  }
+
+  #Recommended-post2{
+    display: none;
+  }
+
+
+
+
+
+
+  #cardss .card .card-body {
+    background: #D4D4D4;
+    border-radius: 0px 0px 10px 10px;
+  }
+
+  #cardss .card .card-body .text-grey{
+    color: #7c7c7c;
+    font-weight: 700;
+    font-size: 16px;
+  }
+  #cardss .card .card-body .link a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  /* #cardss{
+    padding: 30px;
+  } */
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  #cardss-two .card .card-body {
+    background: #D4D4D4;
+    border-radius: 0px 0px 10px 10px;
+  }
+
+  #cardss-two .card .card-body .text-grey{
+    color: #7c7c7c;
+    font-weight: 700;
+    font-size: 16px;
+  }
+  #cardss-two .card .card-body .link a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  /* #cardss-two{
+    padding: 30px;
+  } */
+
+  #cardss-two .card-title {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  #card-five {
+    padding: 30px;
+  }
+  #card-fives {
+    display: none;
+  }
+  #card-fives {
+    padding: 30px;
+  }
+
+  #cardss .card-title {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+ 
 
   #card-five .cardes .card-bodys {
     background: #D4D4D4;
@@ -184,11 +307,78 @@ ul{
     display: flex;
   }
 
+  
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  #Recommended-post2 .swiper-slide {
+    font-size: 18px;
+    background: #D4E4FB;
+  }
+  .swiper-slide {
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+
   @media (max-width: 426px) {
     .blog-hero-section {
       width: 100%;
     }
 
+    #cardss {
+      display: none;
+      padding: 30px;
+    }
+
+    #card-fives {
+      display: block;
+    }
+
+    #card-five {
+      display: none;
+    }
+
+    .swiper {
+      display: block;
+    }
+
+    .topnav-main {
+      display: block;
+    }
+
+    #Recommended-post{
+      display: none;
+    }
+
+    #Recommended-post2{
+      display: block;
+    }
     /* #Latest-Update {
       width: 350px;
       padding: 10px;
@@ -208,6 +398,10 @@ ul{
 
     #Latest-Update .link {
     text-align: center;
+    }
+
+    #Latest-Update .search2 {
+      display: none;
     }
 
     #Latest-Update .topnav {
@@ -232,6 +426,9 @@ ul{
         margin: 0;
     }
    
+   .blog-hero-section .topnav-main input[type=text] {
+      width: 155px;
+  }
 
     .topnav input[type=text] {
       width: 65%;
@@ -245,6 +442,11 @@ ul{
   #Recommended-post .Recommended-Post-Body {
     padding-left: 0;
   }
+
+  #Recommended-post2 .Recommended-Post-Body {
+    padding-left: 0;
+  }
+
   #Latest-Update .Latest-Update-Body .Latest-Update-Text h2{
       height: 50%;
     }
@@ -255,6 +457,8 @@ ul{
 
     #Latest-Update .Latest-Update-Body {
       padding-left: 0;
+      width: 200px;
+      margin-bottom: 0;
     }
     #Latest-Update .Latest-Update-Body .Latest-Update-Text h2{
       font-size: 20px;
@@ -267,10 +471,24 @@ ul{
       font-weight: 700;
     }
 
+    #Recommended-post2 .Recommended-Post-Body .Recommended-Post-Text h2{
+      font-size: 18px;
+      font-weight: 700;
+    }
+
     #card-five h2{
       font-size: 25px;
       font-weight: 700;
     }
+
+    #card-fives h2{
+      font-size: 25px;
+      font-weight: 700;
+    }
+
+    #cardss-two {
+     padding: 30px;
+  }
   }
 
   @media (max-width: 769px) {
